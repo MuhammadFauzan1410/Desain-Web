@@ -1,0 +1,112 @@
+.header {
+	background-color: darkslateblue;
+	padding: 10px;
+	text-align: center;
+	color: gold;
+	text-transform: uppercase;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: indigo;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: gold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.topnav a:hover {
+	background-color: red;
+	color: yellow;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	float: left;
+	width: 31%;
+	padding: 15px;
+	text-align: justify;
+}
+
+.footer {
+	background-color: lightblue;
+	padding: 18px;
+	text-align: center;
+}
+
+.footer p:hover {
+	background-color: lightcyan;
+	color: red;
+}
+
+.column2 {
+	float: left;
+	width: 97.50%;
+	padding: 15px;
+	text-align: justify;
+}
+
+.column3 {
+	float: left;
+	width: 63.95%;
+	padding: 15px;
+	text-align: justify;
+}
+
+img {
+	width: 800px;
+	height: 340px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+}
+
+.banner {
+	background-color: dimgray;
+	padding: 10px;
+	margin-top: 159px;
+}	
+
+.fixed-nav {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 97.50%;
+}
+
+@media screen and (max-width: 800px) {
+	.column, .column2, .column3 {
+		width: 97.50%;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: 0;
+		width: 97.50%;
+	}
+}
+img{
+	width: 800px;
+	height: 340px;
+}
+.banner {
+	margin-top: 272px;
+}
